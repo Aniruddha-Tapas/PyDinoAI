@@ -1,4 +1,6 @@
 # PyDinoAI
 Training a CNN to play the chrome://dino game by itself.
 
-[Full README coming soon.]
+![Demo](https://raw.githubusercontent.com/Aniruddha-Tapas/PyDinoAI/master/dino.gif)
+
+- [ ] Full README coming soon.
