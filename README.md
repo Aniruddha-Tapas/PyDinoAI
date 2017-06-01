@@ -6,7 +6,7 @@ Training a CNN to play the chrome://dino game by itself.
 
 ## Steps to implement: 
 
-* Open chrome://dino in your browser. Then run `create_training_data.py`. Adjust the region of interest (380,150,970,290) according to your computer screen. This will save the dino game pixel data and the corresponding keys pressed for events in a file called `training_data.npy`.
+* Open chrome://dino in your browser. Then run `create_training_data.py`. Adjust the region of interest (380,150,970,290) according to the position of the game in your computer screen. This will save the dino game pixel data from the ROI and the corresponding keys pressed for events as tuples in a file called `training_data.npy`.
 
 * Next, run the `check-data.ipynb` by using `jupyter notebook` command. This will duplicate the data and balance it so that our neural networks doesn't overfit on one particular keypress.
 
